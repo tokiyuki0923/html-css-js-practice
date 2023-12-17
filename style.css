@@ -1,3 +1,27 @@
-h1 {
-  color:blue;
+@charset "UTF-8";
+.red{
+  background-color: #ca1019;
+  width: 600px;
+  height: 180px;
+
+}
+.green{
+  background-color: #14865f;
+  width: 420px;
+  height: 480px;
+  float:left;
+
+}
+.blue{
+  background-color: #2935a8;
+  width: 180px;
+  height: 480px;
+  float: left;
+}
+.yellow{
+  width:600px;
+  height:100px;
+  background-color: #f4d508;
+  clear: left;
+
 }
