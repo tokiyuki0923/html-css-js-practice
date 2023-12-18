@@ -3,17 +3,56 @@
   background-color: #ca1019;
   width: 600px;
   height: 180px;
+  position: relative;
 
 }
+.white{
+  background-color: white;
+  width: 450px;
+  height: 90px;
+  position: absolute;
+  top: 45px;
+  right: 50px;
+  left: 100px;
+}
+.menu{
+  
+}
+.yellow2{
+  background-color: #f4c538;
+  width: 100px;
+  height: 70px;
+  padding: 10px;
+  float: left;
+}
+.li{
+  float: left;
+  padding: 10px,5px;
+  margin: 100px,70px;
+  list-style: none;
+}
 .green{
-  background-color: #14865f;
+  background-color: #309c77;
   width: 420px;
   height: 480px;
   float:left;
 
 }
+.img1{
+  position: relative;
+  top: 40px;
+  right: 50px;
+  padding-bottom: 20px;
+  outline-width: 2px;
+  outline-color: white;
+
+}
+.img2{
+  padding-bottom: 20px;
+
+}
 .blue{
-  background-color: #2935a8;
+  background-color: #29b098;
   width: 180px;
   height: 480px;
   float: left;
