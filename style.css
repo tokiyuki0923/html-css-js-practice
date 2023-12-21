@@ -4,58 +4,59 @@
   width: 600px;
   height: 180px;
   position: relative;
-
 }
+
 .white{
   background-color: white;
   width: 450px;
   height: 90px;
   position: absolute;
   top: 45px;
-  right: 50px;
   left: 100px;
+  display: flex;
 }
-.menu{
-  
-}
+
 .yellow2{
   background-color: #f4c538;
   width: 100px;
   height: 70px;
   padding: 10px;
-  float: left;
 }
-.li{
-  float: left;
-  padding: 10px,5px;
-  margin: 100px,70px;
-  list-style: none;
-}
+
 .green{
   background-color: #309c77;
   width: 420px;
   height: 480px;
   float:left;
+  display: flex;
+  flex-direction: column;
 
 }
-.img1{
-  position: relative;
-  top: 40px;
-  right: 50px;
-  padding-bottom: 20px;
+.item1{
   outline-width: 2px;
   outline-color: white;
-
-}
-.img2{
-  padding-bottom: 20px;
-
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  left: 50px;
 }
 .blue{
   background-color: #29b098;
   width: 180px;
   height: 480px;
   float: left;
+}
+.item2{
+  position: relative;
+  top: 60px;
+  left: 50px;
+
+}
+.item3{
+  position: relative;
+  top: 80px;
+  left: 50px;
+
 }
 .yellow{
   width:600px;
