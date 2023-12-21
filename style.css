@@ -38,14 +38,8 @@
   float:left;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
-}
-.item1{
-  border: solid white 2px;
-  flex-direction: column;
-  position: relative;
-  top: 40px;
-  left: 50px;
 }
 .blue{
   background-color: #29b098;
@@ -53,18 +47,17 @@
   height: 480px;
   float: left;
 }
+.item1{
+  margin-top: 40px;
+  border: white 2px solid;
+}
 .item2{
-  position: relative;
-  top: 60px;
-  left: 50px;
-  border: solid white 2px;
-
+  margin-top: 20px;
+  border: white 2px solid;
 }
 .item3{
-  position: relative;
-  top: 80px;
-  left: 50px;
-  border: solid white 2px;
+  margin-top: 20px;
+  border: white 2px solid;
 
 }
 .yellow{
