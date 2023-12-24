@@ -3,20 +3,65 @@
   background-color: #ca1019;
   width: 600px;
   height: 180px;
+  position: relative;
+}
+
+.white{
+  background-color: white;
+  width: 450px;
+  height: 90px;
+  position: absolute;
+  top: 45px;
+  left: 100px;
+  display: flex;
+  gap: 10px;
 
 }
+.yellow1{
+  background-color: #f4c538;
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.yellow2{
+  background-color: #f4c538;
+  width: 100px;
+  height: 70px;
+  margin-top: 10px;
+}
+.big{
+  display: flex;
+}
 .green{
-  background-color: #14865f;
+  background-color: #309c77;
   width: 420px;
   height: 480px;
-  float:left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 
 }
 .blue{
-  background-color: #2935a8;
+  background-color: #29b098;
   width: 180px;
   height: 480px;
-  float: left;
+}
+.item1{
+  border: white 2px solid;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.item2{
+  
+  border: white 2px solid;
+  box-sizing: border-box;
+}
+.item3{
+  border: white 2px solid;
+  box-sizing: border-box;
+
 }
 .yellow{
   width:600px;
