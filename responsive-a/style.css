@@ -2,10 +2,6 @@
 *{
     box-sizing: border-box;
 }
-.aaa{
-    display: flex;
-    justify-content: center;
-}
 .header0{
     display: flex;
     justify-content: space-between;
