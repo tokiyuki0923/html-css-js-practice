@@ -2,14 +2,15 @@
 *{
     box-sizing: border-box;
 }
-.header0{
+.aaa{
     display: flex;
     justify-content: center;
-    max-width: 4000px;
-    justify-content: space-between;
 }
-.header{
+.header0{
     display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: auto;
 
 }
 .header1{
@@ -18,6 +19,7 @@
     height: 60px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .pro{
     color: white;
@@ -25,6 +27,9 @@
 }
 .header2{
     display: flex;
+    gap: 50px;
+    align-items: center;
+    
 }
 .abo{
     font-size: 25px;
@@ -42,7 +47,7 @@
 }
 .img0{
     width: 100%;
-    height: 800px;
+    height: 500px;
 }
 .footer{
     display: flex;
