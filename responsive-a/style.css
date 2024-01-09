@@ -7,7 +7,7 @@
     justify-content: space-between;
     max-width: 75%;
     margin: auto;
-
+    margin-top: 15px;
 }
 .header1{
     background-color: gray;
@@ -30,9 +30,7 @@
 .abo{
     font-size: 25px;
 }
-.header3{
-    display: flex;
-}
+
 .bic{
     font-size: 25px;
 }
@@ -103,4 +101,53 @@
 }
 .firstimg{
     width: 300px;
+}
+
+@media (width <= 430px){
+    .header0{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .pro{
+        font-size: 25px;
+    }
+    .header1{
+        background-color: red;
+        width: 130px;
+        height: 40px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .header2{
+        gap: 20px;
+        margin-right: 20px;
+    }
+    .abo{
+        font-size: 20px;
+    }
+    .bic{
+        font-size: 20px;
+    }
+    .img0{
+        width: 100%;
+    }
+    .kakeru{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .proimg{
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imglist {
+        flex-direction: column;
+     }
 }
