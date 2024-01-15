@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="block1">
+            <h1 class="header">TODOリスト</h1>
+        </div>
+        <div class="input-wrap">
+            <input class="task-name" type="text" placeholder="タスク名を入力">
+            <button type="button" onclick="addtask()">追加</button>
+        </div>
+        <div class="input-wrap2">
+            <button class="delete-task" type="button" onclick="deletetask()">チェック済みタスクを削除</button>
+        </div>
+        <div class="main-wrap">
+            <form name="task-form">
+                <ul class="todo-list"></ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
